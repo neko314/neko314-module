@@ -1,3 +1,3 @@
-module.exports = (name) => {
+module.exports = (name = 'User') => {
   return `Hello, ${name}!`;
 };

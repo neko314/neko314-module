@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
-    "prepublish": "npm test"
+    "prepare": "npm test"
+  },
+  "bin": {
+    "greeter": "bin/greeter.js"
   },
   "author": "Kaneko Keiko",
   "license": "MIT",

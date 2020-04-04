@@ -4,8 +4,9 @@
   "description": "This is a test module. Please ignore!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.test.js"
   },
   "author": "Kaneko Keiko",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
